@@ -1225,7 +1225,12 @@ html, body {
   display: none !important;
 }
 /* Start the game without the blocking welcome screen */
-#welcome-landing-modal {
+#welcome-landing-modal.
   display: none !important;
   pointer-events: none !important;
   }
+/* Hide the welcome screen */
+.welcome-modal-overlay {
+  display: none !important;
+  pointer-events: none !important;
+}
