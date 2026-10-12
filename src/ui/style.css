@@ -1224,3 +1224,8 @@ html, body {
 .touch-controls.hidden {
   display: none !important;
 }
+/* Start the game without the blocking welcome screen */
+#welcome-landing-modal {
+  display: none !important;
+  pointer-events: none !important;
+  }
